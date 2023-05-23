@@ -10,6 +10,6 @@ app.get('/', (req, res, next) => {
 });
 
 app.listen(3000, (err) => {
-  if (err) return 'Some error';
+  if (err) return 'Some error' + err;
   console.log('server startted listening on port 3000');
 });
