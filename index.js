@@ -4,7 +4,7 @@ const app = express();
 app.get('/', (req, res, next) => {
   return res.json({
     route: '/',
-    message: 'This is welcome message, automatically deployed via webhooks and jenkins integration',
+    message: 'Automatically deployed via webhooks and jenkins integration',
   });
 });
 
